@@ -1,0 +1,56 @@
+{
+    "NavigationLinks": {
+        "Website": "Website",
+        "AIChatbot": "Chatbot de IA"
+    },
+    "AIChatBot": {
+        "Meta": {
+            "Title": "Chatbot de IA"
+        },
+        "ModelName": {
+            "Label": "Nome do Modelo",
+            "Placeholder": "Digite o nome do modelo (ex: gpt-4)",
+            "NoModelsAvailable": "Nenhum modelo disponível"
+        },
+        "ModelType": {
+            "Label": "Tipo do Modelo",
+            "Placeholder": "Selecionar tipo do modelo"
+        },
+        "SystemPrompt": {
+            "Label": "Prompt do Sistema",
+            "Placeholder": "Digite o prompt do sistema para a IA"
+        },
+        "Temperature": {
+            "Label": "Temperatura",
+            "Placeholder": "Digite um valor entre 0.0 e 2.0"
+        },
+        "MaxTokens": {
+            "Label": "Máximo de Tokens",
+            "Placeholder": "Digite o número máximo de tokens"
+        },
+        "BaseURL": {
+            "Label": "URL Base da API",
+            "Placeholder": "Digite a URL base da API (ex: https://api.openai.com/v1)"
+        },
+        "AccessToken": {
+            "Label": "Token de Acesso da API",
+            "Placeholder": "Digite seu token de acesso da API"
+        },
+        "Errors": {
+            "ConfigNotFound": "Configuração de chat de IA não encontrada",
+            "FailedToGetConfig": "Falha ao obter a configuração de chat de IA",
+            "InvalidFormData": "Dados do formulário inválidos fornecidos",
+            "FailedToSaveConfig": "Falha ao salvar a configuração de chat de IA",
+            "InvalidRequestBody": "Corpo da requisição inválido",
+            "InvalidThreadIDFormat": "Formato de ID de thread inválido",
+            "ThreadNotFound": "Thread não encontrada",
+            "FailedToCreateThread": "Falha ao criar a thread de chat",
+            "InvalidPhoneFormat": "Formato de número de telefone inválido. Formato esperado: +55XXXXXXXXXXX (com código do país)",
+            "UnknownCountryCode": "Código de país desconhecido no número de telefone. Por favor, forneça um código de país válido",
+            "FailedToSendMessage": "Falha ao enviar mensagem para a thread de chat",
+            "FailedToGetAIResponse": "Falha ao obter resposta da IA",
+            "FailedToEncodeResponse": "Falha ao codificar a resposta",
+            "FailedToGetModels": "Falha ao obter a lista de modelos"
+        }
+    }
+}

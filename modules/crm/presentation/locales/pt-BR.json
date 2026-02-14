@@ -1,0 +1,171 @@
+{
+    "NavigationLinks": {
+        "CRM": "CRM",
+        "Clients": "Clientes",
+        "Chats": "Chats"
+    },
+    "Resources": {
+        "client": "Clientes"
+    },
+    "Permissions": {
+        "Client": {
+            "Create": "Criar clientes",
+            "Read": "Visualizar clientes",
+            "Update": "Editar clientes",
+            "Delete": "Excluir clientes"
+        }
+    },
+    "Clients": {
+        "List": {
+            "Meta": {
+                "Title": "Clientes"
+            },
+            "New": "Novo cliente",
+            "FullName": "Nome Completo",
+            "Phone": "Telefone",
+            "NoData": {
+                "Title": "Nenhum cliente encontrado",
+                "_Description": "Crie um novo cliente para começar"
+            }
+        },
+        "New": {
+            "Meta": {
+                "Title": "Novo cliente"
+            }
+        },
+        "Edit": {
+            "Meta": {
+                "Title": "Editar cliente"
+            }
+        },
+        "Tabs": {
+            "Profile": "Geral",
+            "Notes": "Notas",
+            "Chat": "Mensagens",
+            "Personal": "Pessoal",
+            "Documents": "Documentos",
+            "Actions": "Ações"
+        },
+        "Notes": {
+            "NoNotes": "Nenhuma nota disponível"
+        },
+        "Single": {
+            "ViewDrawer": {
+                "Title": "Detalhes do cliente"
+            },
+            "SendMessage": "Enviar uma mensagem",
+            "PersonalInfo": "Informações Pessoais",
+            "PassportInfo": "Informações do Passaporte",
+            "TaxInfo": "Informações Fiscais",
+            "NotesInfo": "Notas",
+            "FirstName": {
+                "Label": "Nome",
+                "Placeholder": "Digite o nome"
+            },
+            "LastName": {
+                "Label": "Sobrenome",
+                "Placeholder": "Digite o sobrenome"
+            },
+            "MiddleName": {
+                "Label": "Nome do Meio",
+                "Placeholder": "Digite o nome do meio"
+            },
+            "Phone": {
+                "Label": "Telefone",
+                "Placeholder": "Digite o número de telefone"
+            },
+            "Email": {
+                "Label": "E-mail",
+                "Placeholder": "Digite o endereço de e-mail"
+            },
+            "Address": {
+                "Label": "Endereço",
+                "Placeholder": "Digite o endereço"
+            },
+            "Gender": {
+                "Label": "Gênero",
+                "Placeholder": "Digite o gênero"
+            },
+            "DateOfBirth": {
+                "Label": "Data de Nascimento",
+                "Placeholder": "Digite a data de nascimento"
+            },
+            "PassportSeries": {
+                "Label": "Série do Passaporte",
+                "Placeholder": "Digite a série do passaporte"
+            },
+            "PassportNumber": {
+                "Label": "Número do Passaporte",
+                "Placeholder": "Digite o número do passaporte"
+            },
+            "PassportSeriesAndNumber": {
+                "Label": "Série e número do passaporte",
+                "Placeholder": "Digite a série e o número do passaporte"
+            },
+            "Pin": {
+                "Label": "Número de Identificação Pessoal (CPF/PIN)",
+                "Placeholder": "Digite o PIN/CPF"
+            },
+            "CountryCode": {
+                "Label": "País",
+                "Placeholder": "Digite o código do país"
+            },
+            "Comments": {
+                "Label": "Comentários",
+                "Placeholder": "Digite seus comentários"
+            },
+            "Delete": "Excluir cliente",
+            "DeleteConfirmation": "Tem certeza de que deseja excluir este cliente?"
+        }
+    },
+    "MessageTemplates": {
+        "List": {
+            "Meta": {
+                "Title": "Mensagens instantâneas"
+            },
+            "New": "Nova mensagem instantânea",
+            "Content": "Conteúdo",
+            "NoData": {
+                "Title": "Nenhum modelo de mensagem encontrado",
+                "_Description": "Crie um novo modelo de mensagem para começar"
+            }
+        },
+        "New": {
+            "Meta": {
+                "Title": "Nova mensagem instantânea"
+            }
+        },
+        "Edit": {
+            "Meta": {
+                "Title": "Editar mensagem instantânea"
+            }
+        },
+        "Single": {
+            "Template": {
+                "Label": "Modelo",
+                "Placeholder": "Digite o modelo"
+            },
+            "Delete": "Excluir mensagem instantânea",
+            "DeleteConfirmation": "Tem certeza de que deseja excluir esta mensagem instantânea?"
+        },
+        "Dialog": {
+            "Heading": "Escolha um modelo",
+            "Empty": "Nenhum modelo encontrado...",
+            "NewTemplate": "Novo modelo"
+        }
+    },
+    "Chats": {
+        "Meta": {
+            "Title": "Chats"
+        },
+        "New": {
+            "Title": "Novo chat",
+            "Add": "Adicionar",
+            "Cancel": "Cancelar"
+        },
+        "Back": "Voltar",
+        "InstantMessages": "Mensagens instantâneas",
+        "NoSelectedChat": "Selecione um chat...",
+        "ChatNotFound": "Chat não encontrado..."
+    }
+}

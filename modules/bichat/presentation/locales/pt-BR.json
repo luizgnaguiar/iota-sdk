@@ -1,0 +1,364 @@
+{
+    "NavigationLinks": {
+        "BiChat": "BI-Chat"
+    },
+    "BiChat": {
+        "Meta": {
+            "Index": {
+                "Title": "BI-Chat"
+            }
+        },
+        "Title": "BI-Chat",
+        "NewChat": "Novo Chat",
+        "MessagePlaceholder": "Digite uma mensagem...",
+        "SendMessage": "Enviar Mensagem",
+        "Loading": "Carregando...",
+        "Error": {
+            "Generic": "Ocorreu um erro",
+            "Label": "Erro",
+            "SomethingWentWrong": "Algo deu errado",
+            "UnexpectedError": "Ocorreu um erro inesperado. Por favor, tente novamente."
+        },
+        "Retry": {
+            "Title": "Repetir",
+            "Subtitle": "Algo deu errado. Gostaria de tentar novamente?",
+            "Button": "Tentar novamente",
+            "Label": "Tentar novamente"
+        },
+        "Cancel": "Cancelar",
+        "Submit": "Enviar",
+        "Export": "Exportar",
+        "ExportTableToExcel": "Exportar a tabela acima para Excel",
+        "History": {
+            "Empty": "Histórico vazio",
+            "HelpText": "Pressione \"Novo Chat\" para iniciar uma nova conversa"
+        },
+        "Permissions": {
+            "Access": "Acessar BI Chat",
+            "ReadAll": "Ler Todas as Sessões",
+            "Export": "Exportar Dados"
+        },
+        "SlashCommands": {
+            "Clear": "Limpar histórico",
+            "Debug": "Modo debug",
+            "Compact": "Compactar histórico",
+            "Compacting": "Compactando histórico",
+            "CompactedSummary": "Resumo Compactado",
+            "DebugTrace": "Rastro de Debug"
+        },
+        "InlineQuestion": {
+            "InputNeeded": "Entrada necessária",
+            "Next": "Próximo",
+            "Back": "Voltar",
+            "OtherOption": "Outro",
+            "TypeYourAnswer": "Digite sua resposta...",
+            "SelectAllThatApply": "Selecione todas as que se aplicam",
+            "Dismiss": "Descartar"
+        },
+        "Thinking": {
+            "Thinking": "Pensando",
+            "Processing": "Processando",
+            "Analyzing": "Analisando",
+            "Synthesizing": "Sintetizando",
+            "Computing": "Computando",
+            "WorkingOnIt": "Trabalhando nisso",
+            "AriaLabel": "IA está {{verb}}"
+        },
+        "Search": {
+            "Clear": "Limpar busca"
+        },
+        "EditableText": {
+            "AriaLabel": "Editar texto. Pressione Enter para salvar, Escape para cancelar",
+            "DoubleClickToEdit": "Clique duas vezes para editar"
+        },
+        "ContextMenu": "Menu de contexto",
+        "Archive": {
+            "Banner": "Banner de arquivo",
+            "Archived": "Esta sessão de chat foi arquivada",
+            "Restore": "Restaurar",
+            "Restoring": "Restaurando...",
+            "RestoreFailed": "Falha na Restauração"
+        },
+        "Message": {
+            "CopiedToClipboard": "Copiado para a área de transferência",
+            "FailedToCopy": "Falha ao copiar mensagem",
+            "CopyMessage": "Copiar mensagem",
+            "Copying": "Copiando...",
+            "Regenerate": "Regenerar resposta",
+            "Regenerating": "Regenerando...",
+            "EditMessage": "Editar mensagem",
+            "Copy": "Copiar",
+            "Copied": "Copiado",
+            "Save": "Salvar",
+            "Cancel": "Cancelar",
+            "CopyFailed": "Falhou"
+        },
+        "Attachment": {
+            "PreviewUnavailable": "Prévia indisponível",
+            "Remove": "Remover anexo",
+            "InvalidFile": "Arquivo inválido",
+            "SelectFiles": "Selecionar arquivos"
+        },
+        "Image": {
+            "Close": "Fechar",
+            "FailedToLoad": "Falha ao carregar imagem",
+            "Retry": "Tentar carregar imagem novamente",
+            "Previous": "Imagem anterior",
+            "Next": "Próxima imagem"
+        },
+        "Sidebar": {
+            "ChatHistory": "Histórico do chat",
+            "CloseSidebar": "Fechar barra lateral",
+            "ChatSessions": "Sessões de chat",
+            "SearchChats": "Buscar chats...",
+            "CreateNewChat": "Criar novo chat",
+            "ArchivedChats": "Chats Arquivados",
+            "PinnedChats": "Chats fixados",
+            "NoChatsYet": "Ainda não há chats",
+            "CreateOneToGetStarted": "Crie um para começar!",
+            "FailedToLoadSessions": "Falha ao carregar sessões",
+            "ChatRenamedSuccessfully": "Chat renomeado com sucesso",
+            "FailedToRenameChat": "Falha ao renomear chat",
+            "TitleRegenerated": "Título regenerado",
+            "FailedToRegenerateTitle": "Falha ao regenerar título",
+            "ChatOptions": "Opções do chat",
+            "PinChat": "Fixar Chat",
+            "UnpinChat": "Desafixar Chat",
+            "RenameChat": "Renomear Chat",
+            "RegenerateTitle": "Regenerar Título",
+            "ArchiveChat": "Arquivar Chat",
+            "ArchiveChatSession": "Arquivar Sessão de Chat",
+            "ArchiveChatMessage": "Arquivar este chat? Você pode restaurá-lo mais tarde na seção de Chats Arquivados.",
+            "ArchiveButton": "Arquivar",
+            "MyChats": "Meus Chats",
+            "AllChats": "Todos os Chats",
+            "ChatViewSelector": "Seletor de visualização de chat",
+            "DeleteChat": "Excluir Chat",
+            "FailedToArchiveChat": "Falha ao arquivar chat",
+            "FailedToTogglePin": "Falha ao alternar fixação",
+            "CollapseSidebar": "Recolher barra lateral",
+            "Collapse": "Recolher",
+            "ExpandSidebar": "Expandir barra lateral",
+            "Expand": "Expandir",
+            "NoChatsFound": "Nenhum resultado para \"{{query}}\"",
+            "Settings": "Configurações",
+            "MissingPermission": "Permissão ausente para BiChat"
+        },
+        "Welcome": {
+            "QuickStart": "Início Rápido",
+            "Disclaimer": "Alimentado por IA. Erros são possíveis.",
+            "Prompt1Category": "Análise de Dados",
+            "Prompt1Text": "Mostre-me um resumo das principais métricas",
+            "Prompt2Category": "Relatórios",
+            "Prompt2Text": "Gere um relatório para o período atual",
+            "Prompt3Category": "Insights",
+            "Prompt3Text": "Quais tendências você consegue identificar nos dados?"
+        },
+        "Common": {
+            "Loading": "Carregando...",
+            "Generating": "Gerando...",
+            "Untitled": "Chat Sem Título",
+            "Clear": "Limpar busca",
+            "Cancel": "Cancelar",
+            "Back": "Voltar",
+            "Close": "Fechar",
+            "Pinned": "Fixado",
+            "Creating": "Criando...",
+            "AITyping": "A IA está digitando",
+            "Notifications": "Notificações",
+            "ScrollToBottom": "Rolar para o final",
+            "Search": "Buscar",
+            "Confirm": "Confirmar",
+            "TryAgain": "Tentar Novamente",
+            "PleaseWait": "Por favor, aguarde..."
+        },
+        "Chat": {
+            "NewChat": "Novo Chat",
+            "GoBack": "Voltar",
+            "Pinned": "Fixado",
+            "ReadOnly": "Apenas leitura",
+            "Archived": "Arquivado",
+            "Retry": "Tentar novamente",
+            "DismissNotification": "Descartar notificação"
+        },
+        "Archived": {
+            "RestoreButton": "Restaurar",
+            "ChatRestoredSuccessfully": "Chat restaurado com sucesso",
+            "FailedToRestoreChat": "Falha ao restaurar chat",
+            "BackToChats": "Voltar para os chats",
+            "Title": "Chats Arquivados",
+            "SearchArchivedChats": "Buscar chats arquivados...",
+            "NoArchivedChats": "Nenhum Chat Arquivado",
+            "NoArchivedChatsDescription": "Você ainda não possui chats arquivados. Quando você arquiva um chat da lista principal, ele aparecerá aqui.",
+            "NoResults": "Nenhum Resultado",
+            "NoResultsDescription": "Tente um termo de busca diferente",
+            "FailedToLoadChats": "Falha ao carregar chats arquivados",
+            "RestoreChat": "Restaurar Chat",
+            "RestoreChatMessage": "Restaurar este chat arquivado para sua lista principal de chats?"
+        },
+        "AllChats": {
+            "AllUsers": "Todos os usuários",
+            "LoadingUsers": "Carregando usuários...",
+            "NoUsersFound": "Nenhum usuário encontrado",
+            "FailedToLoad": "Falha ao carregar chats da organização",
+            "IncludeArchived": "Incluir arquivados",
+            "OrganizationChats": "Chats da organização",
+            "OrganizationChatSessions": "Sessões de chat da organização",
+            "LoadMore": "Carregar mais",
+            "NoChatsFound": "Nenhum chat encontrado",
+            "NoChatsInOrg": "Nenhum chat nesta organização ainda",
+            "NoActiveChatsInOrg": "Nenhum chat ativo nesta organização"
+        },
+        "Artifacts": {
+            "Title": "Artefatos",
+            "ToggleShow": "Mostrar artefatos",
+            "ToggleHide": "Ocultar artefatos",
+            "Resize": "Redimensionar painel",
+            "Loading": "Carregando artefatos...",
+            "Empty": "Nenhum artefato ainda",
+            "EmptySubtitle": "Artefatos aparecerão aqui conforme você conversa",
+            "Back": "Voltar",
+            "Refresh": "Atualizar",
+            "LoadMore": "Carregar mais",
+            "LoadingMore": "Carregando mais...",
+            "FailedToLoad": "Falha ao carregar artefatos",
+            "Unsupported": "O painel de artefatos não está disponível para esta fonte de dados.",
+            "Download": "Baixar",
+            "OpenInNewTab": "Abrir em nova aba",
+            "DownloadUnavailable": "URL de download não disponível para este artefato.",
+            "ImageUnavailable": "URL da imagem não disponível para este artefato.",
+            "ChartUnavailable": "Metadados do gráfico não estão em um formato renderizável.",
+            "PreviewLoading": "Carregando prévia...",
+            "PreviewUnavailable": "Prévia indisponível para este artefato.",
+            "PreviewNotSupported": "Este tipo de arquivo não pode ser visualizado inline.",
+            "OfficePreviewUnavailable": "Prévia do Office indisponível. Abra ou baixe o arquivo.",
+            "TextPreviewFailed": "Falha ao carregar a prévia do texto.",
+            "TextPreviewTruncated": "A prévia está truncada. Abra o arquivo para ver o conteúdo completo.",
+            "Rename": "Renomear artefato",
+            "RenameFailed": "Falha ao renomear artefato",
+            "Delete": "Excluir artefato",
+            "DeleteConfirm": "Excluir este artefato enviado? Esta ação não pode ser desfeita.",
+            "DeleteFailed": "Falha ao excluir artefato",
+            "GroupCharts": "Gráficos",
+            "GroupCodeOutputs": "Saídas de código",
+            "GroupExports": "Exportações",
+            "GroupAttachments": "Anexos",
+            "GroupOther": "Outro",
+            "EmptyHint": "Arraste e solte arquivos aqui ou use o botão de anexo",
+            "AttachFiles": "Anexar arquivos"
+        },
+        "Input": {
+            "Placeholder": "Digite sua mensagem...",
+            "AttachFiles": "Anexar arquivos",
+            "SendMessage": "Enviar mensagem",
+            "Processing": "Processando...",
+            "DropFiles": "Solte os arquivos aqui",
+            "FilesAdded": "Arquivos adicionados",
+            "DismissError": "Descartar erro",
+            "ShiftEnterHint": "Shift+Enter para nova linha",
+            "FileInput": "Entrada de arquivo",
+            "MessageInput": "Entrada de mensagem",
+            "MessagesQueued": "{{count}} na fila",
+            "QueueFull": "A fila está cheia (máx 5 mensagens)",
+            "QueuedMessages": "{{count}} mensagens na fila",
+            "EditQueueItem": "Editar mensagem na fila",
+            "RemoveQueueItem": "Remover da fila"
+        },
+        "Assistant": {
+            "Explanation": "Explicação"
+        },
+        "CodeOutput": {
+            "Title": "Saída de Código",
+            "CodeOutput": "Saída de código"
+        },
+        "System": {
+            "ConversationSummary": "Resumo da Conversa",
+            "LoadingSummary": "Carregando resumo...",
+            "ShowMore": "Mostrar mais",
+            "ShowLess": "Mostrar menos"
+        },
+        "Question": {
+            "SelectMulti": "Selecione várias opções",
+            "SpecifyOther": "Especifique outro",
+            "OtherOption": "Outro"
+        },
+        "QuestionForm": {
+            "Title": "Perguntas",
+            "Back": "Voltar",
+            "Next": "Próximo",
+            "Confirm": "Confirmar",
+            "Submitting": "Enviando...",
+            "ReviewTitle": "Revise suas respostas",
+            "ReviewDescription": "Por favor, revise suas respostas antes de enviar",
+            "Skip": "Pular"
+        },
+        "StreamError": {
+            "Retry": "Tentar novamente",
+            "Regenerate": "Regenerar"
+        },
+        "Chart": {
+            "NoData": "Nenhum dado disponível",
+            "Download": "Baixar gráfico",
+            "DownloadPNG": "Baixar PNG",
+            "Exporting": "Exportando..."
+        },
+        "Alert": {
+            "Retry": "Tentar novamente"
+        },
+        "Layout": {
+            "OpenSidebar": "Abrir barra lateral"
+        },
+        "SkipLink": {
+            "Label": "Pular para o conteúdo"
+        },
+        "Slash": {
+            "CommandsList": "Comandos",
+            "ClearDescription": "Limpar conversa",
+            "DebugDescription": "Alternar painel de debug",
+            "CompactDescription": "Compactar conversa",
+            "NoMatches": "Nenhum comando correspondente",
+            "DebugBadge": "Debug",
+            "CompactingTitle": "Compactando conversa...",
+            "CompactingSubtitle": "Isso pode levar um momento",
+            "DebugPanelTitle": "Painel de Debug",
+            "DebugGeneration": "Geração",
+            "DebugTokensPerSecond": "Tokens/seg",
+            "DebugUnavailable": "Informações de debug indisponíveis",
+            "DebugToolCalls": "Chamadas de Ferramentas",
+            "DebugArguments": "Argumentos",
+            "DebugResult": "Resultado",
+            "DebugCopyTrace": "Copiar rastro",
+            "DebugCopied": "Copiado!",
+            "DebugError": "Erro",
+            "DebugCachedTokens": "Tokens em Cache",
+            "DebugPromptTokens": "Tokens do Prompt",
+            "DebugCompletionTokens": "Tokens de Conclusão",
+            "DebugTotalTokens": "Total de Tokens",
+            "DebugContextUsage": "Uso de Contexto",
+            "DebugContextWindow": "Janela de Contexto",
+            "DebugPolicyMaxContextWindow": "Máximo de Contexto da Política",
+            "DebugModelMaxContextWindow": "Máximo de Contexto do Modelo",
+            "DebugEffectiveContextWindow": "Janela de Contexto Efetiva",
+            "DebugSessionUsageUnavailable": "Uso da sessão indisponível",
+            "ErrorNoArguments": "Comandos slash não aceitam argumentos",
+            "ErrorSessionRequired": "Este comando requer uma sessão de chat ativa",
+            "ErrorClearFailed": "Falha ao limpar conversa",
+            "ErrorCompactFailed": "Falha ao compactar conversa",
+            "ErrorUnknownCommand": "Comando desconhecido",
+            "ErrorNoAttachments": "Comandos slash não suportam anexos"
+        },
+        "DateGroup": {
+            "Today": "Hoje",
+            "Yesterday": "Ontem",
+            "Last7Days": "Últimos 7 Dias",
+            "Last30Days": "Últimos 30 Dias",
+            "Older": "Mais antigo"
+        },
+        "RelativeTime": {
+            "JustNow": "Agora mesmo",
+            "MinutesAgo": "{{count}}m atrás",
+            "HoursAgo": "{{count}}h atrás",
+            "DaysAgo": "{{count}}d atrás"
+        }
+    }
+}

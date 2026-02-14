@@ -1,5 +1,5 @@
 {
-  "name": "pt-br",
+  "name": "pt-BR",
   "options": {
     "months": [
       "Janeiro",
@@ -31,11 +31,11 @@
     ],
     "days": [
       "Domingo",
-      "Segunda",
-      "Terça",
-      "Quarta",
-      "Quinta",
-      "Sexta",
+      "Segunda-feira",
+      "Terça-feira",
+      "Quarta-feira",
+      "Quinta-feira",
+      "Sexta-feira",
       "Sábado"
     ],
     "shortDays": [
@@ -45,19 +45,19 @@
       "Qua",
       "Qui",
       "Sex",
-      "Sab"
+      "Sáb"
     ],
     "toolbar": {
       "exportToSVG": "Baixar SVG",
       "exportToPNG": "Baixar PNG",
       "exportToCSV": "Baixar CSV",
       "menu": "Menu",
-      "selection": "Selecionar",
-      "selectionZoom": "Selecionar Zoom",
-      "zoomIn": "Aumentar",
-      "zoomOut": "Diminuir",
-      "pan": "Navegação",
-      "reset": "Reiniciar Zoom"
+      "selection": "Seleção",
+      "selectionZoom": "Zoom de Seleção",
+      "zoomIn": "Aumentar Zoom",
+      "zoomOut": "Diminuir Zoom",
+      "pan": "Mover",
+      "reset": "Redefinir Zoom"
     }
   }
 }

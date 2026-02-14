@@ -33,6 +33,11 @@ var (
 			VerboseName: "O'zbekcha",
 			Tag:         language.Uzbek,
 		},
+		{
+			Code:        "pt-BR",
+			VerboseName: "Português (Brasil)",
+			Tag:         language.BrazilianPortuguese,
+		},
 	}
 
 	// SupportedLanguages is the default list (all languages) for backward compatibility

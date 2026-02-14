@@ -1,0 +1,586 @@
+{
+    "Accounts": {
+        "List": {
+            "New": "Adicionar conta"
+        }
+    },
+    "Resources": {
+        "payment": "Pagamentos",
+        "expense": "Despesas",
+        "expense_category": "Categorias de despesa",
+        "debt": "Dívidas"
+    },
+    "Permissions": {
+        "Payment": {
+            "Create": "Criar pagamento",
+            "Read": "Visualizar pagamento",
+            "Update": "Atualizar pagamento",
+            "Delete": "Excluir pagamento"
+        },
+        "Expense": {
+            "Create": "Criar despesa",
+            "Read": "Visualizar despesa",
+            "Update": "Atualizar despesa",
+            "Delete": "Excluir despesa"
+        },
+        "ExpenseCategory": {
+            "Create": "Criar categoria de despesa",
+            "Read": "Visualizar categoria de despesa",
+            "Update": "Atualizar categoria de despesa",
+            "Delete": "Excluir categoria de despesa"
+        },
+        "Debt": {
+            "Create": "Criar dívida",
+            "Read": "Visualizar dívida",
+            "Update": "Atualizar dívida",
+            "Delete": "Excluir dívida"
+        }
+    },
+    "NavigationLinks": {
+        "Finances": "Financeiro",
+        "FinancialOverview": "Visão Geral Financeira",
+        "Transactions": "Transações",
+        "Accounts": "Contas",
+        "Expenses": "Despesas",
+        "ExpenseCategories": "Categorias de Despesa",
+        "Payments": "Pagamentos",
+        "PaymentCategories": "Categorias de Pagamento",
+        "Counterparties": "Contrapartes",
+        "Debts": "Dívidas",
+        "DebtAggregates": "Resumo de Dívidas",
+        "Inventory": "Estoque",
+        "Reports": "Relatórios",
+        "IncomeStatement": "Demonstrativo de Resultados (DRE)",
+        "CashflowStatement": "Fluxo de Caixa",
+        "Finance": {
+            "Enums": "Enumeradores"
+        }
+    },
+    "FinancialOverview": {
+        "Meta": {
+            "Title": "Visão Geral Financeira"
+        }
+    },
+    "ExpenseCategories": {
+        "Meta": {
+            "List": {
+                "Title": "Categorias de despesa"
+            },
+            "Edit": {
+                "Title": "Editar categoria"
+            },
+            "New": {
+                "Title": "Nova categoria"
+            }
+        },
+        "List": {
+            "New": "Nova Categoria",
+            "Name": "Nome",
+            "Amount": "Valor",
+            "NoCategories": {
+                "Title": "Nenhuma categoria de despesa encontrada",
+                "_Description": "Ainda não há categorias de despesa. Clique em 'Nova Categoria' para criar uma."
+            }
+        },
+        "Single": {
+            "EditUser": "Editar categoria",
+            "Name": "Nome",
+            "Amount": "Valor",
+            "CurrencyCode": {
+                "Label": "Moeda",
+                "Placeholder": "Selecionar moeda"
+            },
+            "_Description": "Descrição",
+            "IsCOGS": "Custo das Mercadorias Vendidas (CMV/COGS)",
+            "Delete": "Excluir categoria",
+            "DeleteConfirmation": "Tem certeza de que deseja excluir esta categoria de despesa?"
+        }
+    },
+    "Payments": {
+        "Meta": {
+            "List": {
+                "Title": "Pagamentos"
+            },
+            "Edit": {
+                "Title": "Editar pagamento"
+            },
+            "New": {
+                "Title": "Adicionar pagamento"
+            },
+            "Show": {
+                "Title": "Detalhes do Pagamento"
+            }
+        },
+        "List": {
+            "New": "Adicionar pagamento",
+            "Amount": "Valor",
+            "NoPayments": {
+                "Title": "Nenhum pagamento encontrado",
+                "_Description": "Ainda não há pagamentos. Clique em 'Adicionar pagamento' para criar um."
+            }
+        },
+        "Single": {
+            "AccountID": "Conta",
+            "SelectAccount": "Selecionar conta",
+            "Edit": "Editar pagamento",
+            "Name": "Nome",
+            "Amount": "Valor",
+            "Date": "Data",
+            "AccountingPeriod": "Período contábil",
+            "CounterpartyID": {
+                "Label": "Remetente",
+                "Placeholder": "Selecionar remetente"
+            },
+            "CategoryID": "Categoria",
+            "SelectCategory": "Selecionar categoria",
+            "Comment": "Comentário",
+            "User": "Usuário",
+            "Delete": "Excluir pagamento",
+            "DeleteConfirmation": "Tem certeza de que deseja excluir este pagamento?"
+        }
+    },
+    "Expenses": {
+        "Meta": {
+            "List": {
+                "Title": "Despesas"
+            },
+            "Edit": {
+                "Title": "Editar despesa"
+            },
+            "New": {
+                "Title": "Adicionar despesa"
+            },
+            "Show": {
+                "Title": "Detalhes da Despesa"
+            }
+        },
+        "List": {
+            "New": "Adicionar despesa",
+            "Export": "Exportar",
+            "Category": "Categoria",
+            "Amount": "Valor",
+            "AccountingPeriod": "Período contábil",
+            "Date": "Data",
+            "NoExpenses": {
+                "Title": "Nenhuma despesa encontrada",
+                "_Description": "Ainda não há despesas. Clique em 'Adicionar despesa' para criar uma."
+            }
+        },
+        "Single": {
+            "AccountID": "Conta",
+            "SelectAccount": "Selecionar conta",
+            "CategoryID": "Categoria",
+            "SelectCategory": "Selecionar categoria",
+            "Edit": "Editar despesa",
+            "Name": "Nome",
+            "Amount": "Valor",
+            "Date": "Data",
+            "AccountingPeriod": "Período contábil",
+            "Comment": "Comentário",
+            "Delete": "Excluir despesa",
+            "DeleteConfirmation": "Tem certeza de que deseja excluir esta despesa?"
+        }
+    },
+    "Counterparties": {
+        "Meta": {
+            "List": {
+                "Title": "Contrapartes"
+            },
+            "Edit": {
+                "Title": "Editar contraparte"
+            },
+            "New": {
+                "Title": "Adicionar contraparte"
+            }
+        },
+        "List": {
+            "New": "Adicionar contraparte",
+            "Name": "Nome",
+            "TIN": "CNPJ/CPF",
+            "Type": "Tipo",
+            "LegalType": "Tipo jurídico",
+            "LegalAddress": "Endereço legal",
+            "NoCounterparties": {
+                "Title": "Nenhuma contraparte encontrada",
+                "_Description": "Ainda não há contrapartes. Clique em 'Adicionar contraparte' para criar uma."
+            }
+        },
+        "Single": {
+            "Edit": "Editar contraparte",
+            "Name": "Nome",
+            "TIN": "CNPJ/CPF",
+            "Type": "Tipo",
+            "SelectType": "Selecionar tipo",
+            "LegalType": "Tipo jurídico",
+            "SelectLegalType": "Selecionar tipo jurídico",
+            "LegalAddress": "Endereço legal",
+            "Delete": "Excluir contraparte",
+            "DeleteConfirmation": "Tem certeza de que deseja excluir esta contraparte?"
+        },
+        "Types": {
+            "CUSTOMER": "Cliente",
+            "SUPPLIER": "Fornecedor",
+            "BOTH": "Ambos",
+            "_OTHER": "Outro"
+        },
+        "LegalTypes": {
+            "INDIVIDUAL": "Pessoa Física",
+            "LLC": "Sociedade Limitada (LTDA)",
+            "JSC": "Sociedade Anônima (S/A)",
+            "SOLE_PROPRIETORSHIP": "Empresário Individual (EI/MEI)"
+        }
+    },
+    "MoneyAccounts": {
+        "Meta": {
+            "List": {
+                "Title": "Contas"
+            },
+            "Edit": {
+                "Title": "Editar conta"
+            },
+            "New": {
+                "Title": "Adicionar conta"
+            }
+        },
+        "List": {
+            "New": "Adicionar conta",
+            "Name": "Nome",
+            "Balance": "Saldo",
+            "NoAccounts": {
+                "Title": "Nenhuma conta encontrada",
+                "_Description": "Ainda não há contas. Clique em 'Adicionar conta' para criar uma."
+            }
+        },
+        "Single": {
+            "Edit": "Editar conta",
+            "Name": "Nome",
+            "Balance": "Saldo",
+            "CurrencyCode": "Moeda",
+            "Currency": {
+                "Label": "Moeda",
+                "Placeholder": "Escolher moeda"
+            },
+            "_Description": "Descrição",
+            "AccountNumber": "Número da conta",
+            "Delete": "Excluir conta",
+            "DeleteConfirmation": "Tem certeza de que deseja excluir esta conta?",
+            "General": "Geral",
+            "Transactions": "Transações",
+            "Transfer": "Transferência"
+        },
+        "Transactions": {
+            "NoTransactions": "Nenhuma transação ainda",
+            "NoTransactionsDescription": "Esta conta não possui transações. As transações aparecerão aqui quando você adicionar despesas, pagamentos ou transferências.",
+            "ViewAll": "Visualizar todas as transações"
+        }
+    },
+    "Transfers": {
+        "Meta": {
+            "New": {
+                "Title": "Transferir Dinheiro"
+            }
+        },
+        "Single": {
+            "From": "De",
+            "To": "Para",
+            "DestinationAccountID": "Conta de Destino",
+            "SelectDestinationAccount": "Selecionar conta de destino",
+            "Amount": "Valor",
+            "Comment": "Comentário",
+            "CommentPlaceholder": "Descrição opcional da transferência...",
+            "Transfer": "Transferir",
+            "ExchangeRate": "Taxa de Câmbio",
+            "DestinationAmount": "Valor de Destino",
+            "ExchangeNotice": "Moedas diferentes detectadas - taxa de câmbio necessária"
+        }
+    },
+    "PaymentCategories": {
+        "Meta": {
+            "List": {
+                "Title": "Categorias de pagamento"
+            },
+            "Edit": {
+                "Title": "Editar categoria de pagamento"
+            },
+            "New": {
+                "Title": "Nova categoria de pagamento"
+            }
+        },
+        "List": {
+            "New": "Nova Categoria",
+            "Name": "Nome",
+            "NoCategories": {
+                "Title": "Nenhuma categoria de pagamento encontrada",
+                "_Description": "Ainda não há categorias de pagamento. Clique em 'Nova Categoria' para criar uma."
+            }
+        },
+        "Single": {
+            "Name": "Nome",
+            "_Description": "Descrição",
+            "Delete": "Excluir categoria de pagamento",
+            "DeleteConfirmation": "Tem certeza de que deseja excluir esta categoria de pagamento?"
+        }
+    },
+    "Inventory": {
+        "Meta": {
+            "List": {
+                "Title": "Estoque/Inventário"
+            },
+            "Edit": {
+                "Title": "Editar item de estoque"
+            },
+            "New": {
+                "Title": "Adicionar item de estoque"
+            }
+        },
+        "List": {
+            "New": "Adicionar item de estoque",
+            "Name": "Nome",
+            "Price": "Preço",
+            "Quantity": "Quantidade",
+            "TotalValue": "Valor Total",
+            "NoInventory": {
+                "Title": "Nenhum item de estoque encontrado",
+                "_Description": "Ainda não há itens de estoque. Clique em 'Adicionar item de estoque' para criar um."
+            }
+        },
+        "Single": {
+            "Edit": "Editar item de estoque",
+            "Name": "Nome",
+            "Price": "Preço",
+            "Quantity": "Quantidade",
+            "Currency": {
+                "Label": "Moeda",
+                "Placeholder": "Selecionar moeda"
+            },
+            "_Description": "Descrição",
+            "Delete": "Excluir item de estoque",
+            "DeleteConfirmation": "Tem certeza de que deseja excluir este item de estoque?"
+        }
+    },
+    "Transactions": {
+        "Meta": {
+            "List": {
+                "Title": "Transações"
+            }
+        },
+        "List": {
+            "Date": "Data",
+            "Type": "Tipo",
+            "Amount": "Valor",
+            "Account": "Conta",
+            "Category": "Categoria",
+            "Counterparty": "Contraparte",
+            "Comment": "Comentário",
+            "NoTransactions": {
+                "Title": "Nenhuma transação encontrada",
+                "_Description": "Ainda não há transações. As transações são criadas quando você adiciona despesas ou pagamentos."
+            }
+        },
+        "Filters": {
+            "AllTypes": "Todos os Tipos",
+            "AllTime": "Todo o Período",
+            "AccountingPeriod": "Período Contábil",
+            "AllPeriods": "Todos os Períodos",
+            "ThisMonth": "Este Mês",
+            "LastMonth": "Mês Passado",
+            "TwoMonthsAgo": "2 Meses Atrás",
+            "ThreeMonthsAgo": "3 Meses Atrás"
+        },
+        "Single": {
+            "Title": "Detalhes da Transação",
+            "Details": "Informações da Transação",
+            "Type": "Tipo",
+            "Amount": "Valor",
+            "Date": "Data da Transação",
+            "AccountingPeriod": "Período Contábil",
+            "OriginAccount": "Conta de Origem",
+            "DestinationAccount": "Conta de Destino",
+            "DestinationAccountID": "Conta de Destino",
+            "Comment": "Comentário",
+            "ExchangeDetails": "Detalhes do Câmbio",
+            "ExchangeRate": "Taxa de Câmbio",
+            "DestinationAmount": "Valor de Destino",
+            "RelatedDetails": "Informações Relacionadas",
+            "PaymentCategory": "Categoria de Pagamento",
+            "ExpenseCategory": "Categoria de Despesa",
+            "Counterparty": "Contraparte",
+            "TransactionID": "ID da Transação",
+            "From": "De",
+            "To": "Para",
+            "Category": "Categoria"
+        },
+        "Types": {
+            "DEPOSIT": "Depósito",
+            "WITHDRAWAL": "Retirada",
+            "TRANSFER": "Transferência",
+            "EXCHANGE": "Câmbio"
+        }
+    },
+    "Reports": {
+        "IncomeStatement": {
+            "Title": "Demonstrativo de Resultados (DRE)",
+            "GenerateReport": "Gerar Relatório",
+            "StartDate": "Data de Início",
+            "EndDate": "Data de Término",
+            "ComparePeriods": "Comparar Períodos",
+            "Generate": "Gerar Relatório",
+            "EnableComparison": "Ativar Comparação de Períodos",
+            "Generating": "Gerando relatório...",
+            "NoReportGenerated": "Nenhum Relatório Gerado",
+            "SelectDatesAndGenerate": "Selecione as datas e clique em 'Gerar Relatório' para visualizar seu demonstrativo de resultados",
+            "Period": "Período",
+            "Print": "Imprimir",
+            "GrossProfit": "Lucro Bruto",
+            "NetProfit": "Lucro Líquido",
+            "NoItemsInSection": "Nenhum item nesta seção",
+            "Total": "Total",
+            "ComparativeTitle": "Demonstrativo de Resultados Comparativo",
+            "CurrentPeriod": "Período Atual",
+            "ComparisonPeriods": "Períodos de Comparação",
+            "Revenue": "Receita",
+            "Expenses": "Despesas",
+            "Category": "Categoria",
+            "OperationalIncome": "Resultado Operacional",
+            "TotalExpenses": "Total de Despesas",
+            "GeneratedAt": "Gerado em"
+        },
+        "CashflowStatement": {
+            "Title": "Demonstrativo de Fluxo de Caixa",
+            "_Description": "Visualize e analise os movimentos de caixa em suas contas",
+            "Account": "Conta",
+            "SelectAccount": "Selecionar conta",
+            "AllAccounts": "Todas as Contas",
+            "StartDate": "Data de Início",
+            "EndDate": "Data de Término",
+            "Generate": "Gerar Relatório",
+            "LastGenerated": "Gerado pela última vez",
+            "Never": "Nunca",
+            "ReportTitle": "Fluxo de Caixa",
+            "StartingBalance": "Saldo Inicial",
+            "NetCashFlow": "Fluxo de Caixa Líquido",
+            "EndingBalance": "Saldo Final",
+            "GeneratedAt": "Gerado em",
+            "Category": "Categoria",
+            "Total": "Total",
+            "Count": "Quantidade",
+            "Inflows": "Entradas de Caixa",
+            "Outflows": "Saídas de Caixa",
+            "NoReportGenerated": "Nenhum Relatório Gerado",
+            "SelectDatesAndGenerate": "Selecione as datas e a conta, então clique em 'Gerar Relatório' para visualizar seu fluxo de caixa",
+            "Generating": "Gerando relatório..."
+        }
+    },
+    "Debts": {
+        "Meta": {
+            "List": {
+                "Title": "Dívidas"
+            },
+            "Edit": {
+                "Title": "Editar dívida"
+            },
+            "New": {
+                "Title": "Adicionar dívida"
+            }
+        },
+        "List": {
+            "New": "Adicionar dívida",
+            "Type": "Tipo",
+            "Status": "Status",
+            "Counterparty": "Contraparte",
+            "OriginalAmount": "Valor Original",
+            "OutstandingAmount": "Valor Pendente",
+            "_Description": "Descrição",
+            "DueDate": "Data de Vencimento",
+            "CreatedAt": "Criado em",
+            "Actions": "Ações",
+            "NoDebts": {
+                "Title": "Nenhuma dívida encontrada",
+                "_Description": "Ainda não há dívidas. Clique em 'Adicionar dívida' para criar uma."
+            }
+        },
+        "Single": {
+            "Edit": "Editar dívida",
+            "Counterparty": "Contraparte",
+            "CounterpartyID": "Contraparte",
+            "SelectCounterparty": "Selecionar contraparte",
+            "Type": "Tipo de Dívida",
+            "SelectType": "Selecionar tipo de dívida",
+            "Status": "Status",
+            "Amount": "Valor",
+            "OriginalAmount": "Valor Original",
+            "OutstandingAmount": "Valor Pendente",
+            "_Description": "Descrição",
+            "DueDate": "Data de Vencimento",
+            "SettlementTransactionID": "Transação de Liquidação",
+            "Settle": "Liquidar Dívida",
+            "WriteOff": "Dar Baixa (Write Off)",
+            "Delete": "Excluir dívida",
+            "DeleteConfirmation": "Tem certeza de que deseja excluir esta dívida?",
+            "SettleConfirmation": "Tem certeza de que deseja liquidar esta dívida?",
+            "WriteOffConfirmation": "Tem certeza de que deseja dar baixa nesta dívida como incobrável?",
+            "SelectTransaction": "Selecionar transação"
+        },
+        "Types": {
+            "RECEIVABLE": "A Receber",
+            "PAYABLE": "A Pagar"
+        },
+        "Statuses": {
+            "PENDING": "Pendente",
+            "SETTLED": "Liquidada",
+            "PARTIAL": "Parcialmente Liquidada",
+            "WRITTEN_OFF": "Baixada (Perda)"
+        },
+        "Actions": {
+            "Created": "Dívida criada com sucesso",
+            "Updated": "Dívida atualizada com sucesso",
+            "Deleted": "Dívida excluída com sucesso",
+            "Settled": "Dívida liquidada com sucesso",
+            "WrittenOff": "Dívida baixada com sucesso"
+        }
+    },
+    "DebtAggregates": {
+        "Meta": {
+            "List": {
+                "Title": "Resumo de Dívidas por Contraparte"
+            }
+        },
+        "List": {
+            "Counterparty": "Contraparte",
+            "TotalReceivable": "Total a Receber",
+            "TotalPayable": "Total a Pagar",
+            "OutstandingReceivable": "Pendente a Receber",
+            "OutstandingPayable": "Pendente a Pagar",
+            "NetAmount": "Valor Líquido",
+            "DebtCount": "Total de Dívidas"
+        },
+        "Drawer": {
+            "Title": "Detalhes da Dívida"
+        }
+    },
+    "Attachments": {
+        "Title": "Anexos",
+        "AddFiles": "Adicionar Arquivos",
+        "ChooseFiles": "Escolher Arquivos",
+        "SupportedFormats": "Formatos suportados: PDF, JPG, PNG, DOC, DOCX, XLS, XLSX",
+        "ExistingFiles": "Arquivos Existentes",
+        "AttachedFiles": "Arquivos Anexados",
+        "DeleteConfirmation": "Tem certeza de que deseja excluir este anexo?",
+        "DeleteFile": "Excluir Arquivo"
+    },
+    "Finance": {
+        "Attachments": {
+            "Title": "Documentos Financeiros",
+            "AddFiles": "Adicionar Documentos",
+            "ChooseFiles": "Escolher Documentos",
+            "SupportedFormats": "Envie recibos, faturas, contratos e outros documentos financeiros",
+            "ExistingFiles": "Documentos Existentes",
+            "AttachedFiles": "Documentos Anexados",
+            "DeleteConfirmation": "Tem certeza de que deseja excluir este documento?",
+            "DeleteFile": "Excluir Documento"
+        }
+    },
+    "ValidationErrors": {
+        "invalidTIN": "{{.Details}}"
+    }
+}

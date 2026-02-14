@@ -1,0 +1,10 @@
+{
+    "Resources": {
+        "logs": "Registros"
+    },
+    "Permissions": {
+        "Logs": {
+            "View": "Visualizar registros"
+        }
+    }
+}

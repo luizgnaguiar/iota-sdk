@@ -1,0 +1,1134 @@
+{
+    "Account": {
+        "Meta": {
+            "Index": {
+                "Title": "Conta"
+            },
+            "Settings": {
+                "Title": "Configurações da conta"
+            },
+            "Logo": {
+                "Title": "Configurações de logo"
+            }
+        },
+        "BrowseFilesystem": "Navegar no sistema de arquivos",
+        "FirstName": {
+            "Label": "Nome",
+            "Placeholder": "Digite o nome"
+        },
+        "LastName": {
+            "Label": "Sobrenome",
+            "Placeholder": "Digite o sobrenome"
+        },
+        "MiddleName": {
+            "Label": "Nome do meio",
+            "Placeholder": "Digite o nome do meio"
+        },
+        "Email": {
+            "Label": "E-mail",
+            "Placeholder": "Digite o e-mail"
+        },
+        "Phone": {
+            "Label": "Telefone",
+            "Placeholder": "Digite o número de telefone"
+        },
+        "Password": "Senha",
+        "Save": "Salvar",
+        "Logo": {
+            "FullLogo": "Logo Completa",
+            "FullLogoDescription": "Este logo será exibido quando a barra lateral estiver expandida",
+            "FullLogoPlaceholder": "Escolha o logo completo da sua empresa (PNG, JPG, SVG)",
+            "CompactLogo": "Logo Compacta",
+            "CompactLogoDescription": "Este logo será exibido quando a barra lateral estiver colapsada",
+            "CompactLogoPlaceholder": "Escolha o logo compacto da sua empresa (PNG, JPG, SVG)"
+        },
+        "Contact": {
+            "Information": "Informações de Contato",
+            "DescText": "Gerencie os detalhes de contato da sua organização",
+            "Phone": "Número de Telefone",
+            "PhonePlaceholder": "Digite o número de telefone (ex: +5511999999999)",
+            "Email": "Endereço de E-mail",
+            "EmailPlaceholder": "Digite o endereço de e-mail"
+        },
+        "Sessions": {
+            "Title": "Sessões Ativas",
+            "DescText": "Gerencie suas sessões ativas em todos os dispositivos",
+            "CurrentDevice": "Atual",
+            "Device": "Dispositivo",
+            "IPAddress": "Endereço IP",
+            "CreatedAt": "Sessão Iniciada",
+            "Actions": "Ações",
+            "Revoke": "Revogar",
+            "RevokeAll": "Sair de todos os outros dispositivos",
+            "ConfirmRevoke": "Tem certeza de que deseja revogar esta sessão?",
+            "ConfirmRevokeAll": "Tem certeza de que deseja sair de todos os outros dispositivos?",
+            "RevokeSuccess": "Sessão revogada com sucesso",
+            "RevokeAllSuccess": "%d sessões revogadas",
+            "EmptyState": "Você está conectado apenas neste dispositivo",
+            "CannotRevokeCurrent": "Não é possível revogar a sessão atual"
+        }
+    },
+    "Actions": "Ações",
+    "Add": "Adicionar",
+    "All": "Todos",
+    "NotFound": "Não Encontrado",
+    "Analytics": {
+        "PreviousDay": "Dia anterior",
+        "NextDay": "Próximo dia",
+        "Revenue": "Receita",
+        "Count": "Quantidade",
+        "RevenueByCategory": "Receita por Categoria",
+        "CountByCategory": "Quantidade por Categoria",
+        "CategoryBreakdown": "Detalhamento por Categoria",
+        "NoDataTitle": "Nenhum dado disponível",
+        "NoDataDescription": "Nenhum dado disponível para a data selecionada",
+        "Categories": "Categorias"
+    },
+    "Back": "Voltar",
+    "Cancel": "Cancelar",
+    "ConfirmDelete": "Tem certeza de que deseja excluir este item?",
+    "Countries": {
+        "AF": "Afeganistão",
+        "AL": "Albânia",
+        "AD": "Andorra",
+        "AG": "Antigua e Barbuda",
+        "AR": "Argentina",
+        "AU": "Austrália",
+        "AT": "Áustria",
+        "BA": "Bósnia e Herzegovina",
+        "BW": "Botsuana",
+        "BN": "Brunei",
+        "BS": "Bahamas",
+        "BH": "Bahrein",
+        "BD": "Bangladesh",
+        "BB": "Barbados",
+        "BE": "Bélgica",
+        "BZ": "Belize",
+        "BT": "Butão",
+        "BO": "Bolívia",
+        "BR": "Brasil",
+        "BG": "Bulgária",
+        "CA": "Canadá",
+        "CL": "Chile",
+        "CO": "Colômbia",
+        "CR": "Costa Rica",
+        "HR": "Croácia",
+        "CY": "Chipre",
+        "CZ": "Tchéquia",
+        "DK": "Dinamarca",
+        "DO": "República Dominicana",
+        "EC": "Equador",
+        "SV": "El Salvador",
+        "EE": "Estônia",
+        "FI": "Finlândia",
+        "FR": "França",
+        "DE": "Alemanha",
+        "GR": "Grécia",
+        "GT": "Guatemala",
+        "HN": "Honduras",
+        "HU": "Hungria",
+        "IS": "Islândia",
+        "IE": "Irlanda",
+        "IT": "Itália",
+        "JM": "Jamaica",
+        "JP": "Japão",
+        "LV": "Letônia",
+        "LI": "Liechtenstein",
+        "LT": "Lituânia",
+        "LU": "Luxemburgo",
+        "MY": "Malásia",
+        "MT": "Malta",
+        "MX": "México",
+        "MC": "Mônaco",
+        "NL": "Países Baixos",
+        "NZ": "Nova Zelândia",
+        "NI": "Nicarágua",
+        "NO": "Noruega",
+        "PA": "Panamá",
+        "PY": "Paraguai",
+        "PE": "Peru",
+        "PL": "Polônia",
+        "PT": "Portugal",
+        "SM": "San Marino",
+        "SG": "Singapura",
+        "SK": "Eslováquia",
+        "SI": "Eslovênia",
+        "ES": "Espanha",
+        "SE": "Suécia",
+        "CH": "Suíça",
+        "TH": "Tailândia",
+        "TO": "Tonga",
+        "UY": "Uruguai",
+        "DZ": "Argélia",
+        "AO": "Angola",
+        "AM": "Armênia",
+        "AZ": "Azerbaijão",
+        "BY": "Bielorrússia",
+        "BJ": "Benin",
+        "BF": "Burkina Faso",
+        "BI": "Burundi",
+        "CV": "Cabo Verde",
+        "KH": "Camboja",
+        "CM": "Camarões",
+        "CF": "República Centro-Africana",
+        "TD": "Chade",
+        "CN": "China",
+        "KM": "Comores",
+        "CG": "Congo (Brazzaville)",
+        "CD": "Congo (Kinshasa)",
+        "CU": "Cuba",
+        "DJ": "Djibuti",
+        "DM": "Dominica",
+        "EG": "Egito",
+        "GQ": "Guiné Equatorial",
+        "ER": "Eritreia",
+        "SZ": "Essuatíni",
+        "ET": "Etiópia",
+        "FJ": "Fiji",
+        "GA": "Gabão",
+        "GM": "Gâmbia",
+        "GE": "Geórgia",
+        "GH": "Gana",
+        "GD": "Granada",
+        "GN": "Guiné",
+        "GW": "Guiné-Bissau",
+        "GY": "Guiana",
+        "HT": "Haiti",
+        "IN": "Índia",
+        "IDN": "Indonésia",
+        "IR": "Irã",
+        "IQ": "Iraque",
+        "IL": "Israel",
+        "JO": "Jordânia",
+        "KI": "Kiribati",
+        "KZ": "Cazaquistão",
+        "KE": "Quênia",
+        "KR": "Coreia do Sul",
+        "KP": "Coreia do Norte",
+        "XK": "Kosovo",
+        "KW": "Kuwait",
+        "KG": "Quirguistão",
+        "LA": "Laos",
+        "LB": "Líbano",
+        "LS": "Lesoto",
+        "LR": "Libéria",
+        "LY": "Líbia",
+        "MG": "Madagascar",
+        "MW": "Malaui",
+        "MV": "Maldivas",
+        "ML": "Mali",
+        "MR": "Mauritânia",
+        "MU": "Maurício",
+        "MD": "Moldávia",
+        "MN": "Mongólia",
+        "ME": "Montenegro",
+        "MA": "Marrocos",
+        "MZ": "Moçambique",
+        "MM": "Mianmar",
+        "NA": "Namíbia",
+        "NR": "Nauru",
+        "NP": "Nepal",
+        "NE": "Níger",
+        "NG": "Nigéria",
+        "OM": "Omã",
+        "PK": "Paquistão",
+        "MH": "Ilhas Marshall",
+        "PW": "Palau",
+        "PG": "Papua Nova Guiné",
+        "QA": "Catar",
+        "RU": "Rússia",
+        "RW": "Ruanda",
+        "WS": "Samoa",
+        "ST": "São Tomé e Príncipe",
+        "SA": "Arábia Saudita",
+        "SN": "Senegal",
+        "RS": "Sérvia",
+        "SC": "Seicheles",
+        "SL": "Serra Leoa",
+        "SB": "Ilhas Salomão",
+        "SO": "Somália",
+        "ZA": "África do Sul",
+        "SS": "Sudão do Sul",
+        "LK": "Sri Lanka",
+        "SD": "Sudão",
+        "SY": "Síria",
+        "TJ": "Tajiquistão",
+        "TZ": "Tanzânia",
+        "TL": "Timor-Leste",
+        "TG": "Togo",
+        "TT": "Trinidad e Tobago",
+        "TN": "Tunísia",
+        "TM": "Turcomenistão",
+        "TV": "Tuvalu",
+        "UG": "Uganda",
+        "UA": "Ucrânia",
+        "AE": "Emirados Árabes Unidos",
+        "GB": "Reino Unido",
+        "US": "Estados Unidos",
+        "UZ": "Uzbequistão",
+        "VU": "Vanuatu",
+        "VA": "Cidade do Vaticano",
+        "VE": "Venezuela",
+        "VN": "Vietnã",
+        "YE": "Iêmen",
+        "ZM": "Zâmbia",
+        "ZW": "Zimbábue",
+        "FM": "Micronésia",
+        "MK": "Macedônia do Norte",
+        "PS": "Palestina",
+        "PH": "Filipinas",
+        "RO": "Romênia",
+        "KN": "São Cristóvão e Névis",
+        "LC": "Santa Lúcia",
+        "VC": "São Vicente e Granadinas",
+        "SR": "Suriname",
+        "TR": "Turquia"
+    },
+    "CreatedAt": "Criado em",
+    "Dashboard": {
+        "Meta": {
+            "Title": "Dashboard"
+        },
+        "Welcome": "Bem-vindo ao dashboard"
+    },
+    "Delete": "Excluir",
+    "Edit": "Editar",
+    "ErrorPages": {
+        "NotFound": {
+            "Title": "404",
+            "Message": "Página não encontrada",
+            "Home": "Início"
+        },
+        "Forbidden": {
+            "Title": "403",
+            "Message": "Acesso Negado",
+            "_Description": "Você não tem permissão para acessar este recurso.",
+            "Home": "Início"
+        }
+    },
+    "Errors": {
+        "Internal": "Ocorreu um erro interno no servidor: {{.Error}}",
+        "BadRequest": "Requisição inválida: {{.Error}}",
+        "NotFound": "Recurso não encontrado: {{.Error}}",
+        "Unauthorized": "Não autorizado: {{.Error}}",
+        "Forbidden": "Proibido: {{.Error}}",
+        "InvalidFormData": "Dados do formulário inválidos",
+        "InvalidQueryParams": "Parâmetros de consulta inválidos",
+        "FailedToRetrieve": "Falha ao recuperar dados",
+        "FailedToSave": "Falha ao salvar dados",
+        "FailedToUpdate": "Falha ao atualizar dados",
+        "FailedToDelete": "Falha ao excluir dados",
+        "EntityNotFound": "Item não encontrado",
+        "InternalServer": "Erro interno do servidor",
+        "FailedToRender": "Falha ao renderizar a página"
+    },
+    "Export": {
+        "Title": "Exportar",
+        "ToExcel": "Exportar para Excel",
+        "ToCSV": "Exportar para CSV",
+        "ToJSON": "Exportar para JSON",
+        "ToTXT": "Exportar para TXT"
+    },
+    "Filters": {
+        "CreatedAt": {
+            "AllTime": "Todo o período",
+            "Today": "Hoje",
+            "Yesterday": "Ontem",
+            "Ereyesterday": "Anteontem",
+            "ThisWeek": "Esta semana",
+            "LastWeek": "Semana passada",
+            "ThisMonth": "Este mês",
+            "LastMonth": "Mês passado"
+        }
+    },
+    "Groups": {
+        "Meta": {
+            "List": {
+                "Title": "Lista de Grupos"
+            },
+            "Edit": {
+                "Title": "Editar grupo"
+            },
+            "New": {
+                "Title": "Novo grupo"
+            }
+        },
+        "Cards": {
+            "GroupInfo": "Informações do grupo",
+            "MembershipInfo": "Informações de membros"
+        },
+        "List": {
+            "New": "Novo grupo",
+            "Name": "Nome",
+            "_Description": "Descrição",
+            "Roles": "Funções",
+            "Users": "Usuários",
+            "NoGroups": {
+                "Title": "Nenhum grupo encontrado",
+                "_Description": "Crie seu primeiro grupo clicando no botão 'Novo grupo'"
+            }
+        },
+        "Single": {
+            "Name": "Nome",
+            "_Description": "Descrição",
+            "RoleIDs": "Funções",
+            "UserIDs": "Usuários",
+            "SelectRole": "Selecionar funções",
+            "SelectUser": "Selecionar usuários",
+            "SearchRoles": "Buscar funções",
+            "EnterGroupName": "Digite o nome do grupo",
+            "EnterDescription": "Digite a descrição",
+            "NoRoleDescription": "Nenhuma descrição disponível",
+            "Delete": "Excluir grupo",
+            "DeleteConfirmation": "Tem certeza de que deseja excluir este grupo?"
+        }
+    },
+    "Home": {
+        "Meta": {
+            "Title": "Início"
+        }
+    },
+    "Import": {
+        "Error": {
+            "ValidationError": "Erro de Validação"
+        }
+    },
+    "Login": {
+        "Meta": {
+            "Title": "Entrar"
+        },
+        "Email": "E-mail",
+        "Password": "Senha",
+        "Login": "Entrar",
+        "WelcomeBack": "Bem-vindo de volta",
+        "LoginToUse": "Entre para usar o IOTA ERP",
+        "LoginWithGoogle": "Entrar com o Google",
+        "OrSignInWith": "Ou entre com...",
+        "Errors": {
+            "PasswordInvalid": "E-mail ou senha inválidos",
+            "OauthStateNotFound": "Estado oAuth não encontrado. Por favor, tente novamente.",
+            "OauthStateInvalid": "Estado oAuth inválido. Por favor, tente novamente.",
+            "OauthCodeNotFound": "Código oAuth não encontrado. Por favor, tente novamente.",
+            "UserNotFound": "Usuário não encontrado",
+            "AccountBlocked": "Sua conta foi bloqueada. Por favor, entre em contato com o administrador."
+        }
+    },
+    "Modules": {
+        "BiChat": "BI-Chat",
+        "Billing": "Faturamento",
+        "Core": "Administração",
+        "CRM": "CRM",
+        "Finance": "Financeiro",
+        "HRM": "Gestão de RH",
+        "Logging": "Registros",
+        "Pipeline": "Pipeline",
+        "Projects": "Projetos",
+        "Superadmin": "Super Admin",
+        "Testkit": "Test Kit",
+        "Warehouse": "Estoque",
+        "Website": "Website"
+    },
+    "NavigationLinks": {
+        "Dashboard": "Dashboard",
+        "Administration": "Administração",
+        "Users": "Usuários",
+        "Roles": "Funções",
+        "Groups": "Grupos",
+        "Settings": "Configurações",
+        "KnowledgeBase": "Base de Conhecimento",
+        "Operations": "Operações",
+        "Calendar": "Calendário",
+        "Enums": "Enumeradores",
+        "TaskTypes": "Tipos de Tarefa",
+        "Positions": "Cargos",
+        "Finances": "Financeiro",
+        "Projects": "Projetos",
+        "Reports": "Relatórios",
+        "Portfolio": "Portfólio",
+        "SalesReport": "Relatório de Vendas",
+        "OsagoReport": "Relatório OSAGO",
+        "Underwriting": "Subscrição",
+        "Submissions": "Submissões",
+        "Policies": "Apólices",
+        "Files": "Arquivos",
+        "Lookups": "Consultas",
+        "PolicyObjects": "Objetos da Apólice",
+        "Persons": "Pessoas",
+        "Organizations": "Organizações",
+        "Vehicles": "Veículos",
+        "VehicleGroups": "Grupos de Veículos",
+        "VehicleTypes": "Tipos de Veículo",
+        "ResidencyTypes": "Tipos de Residência",
+        "Discounts": "Descontos",
+        "ContractTermConclusions": "Conclusões de Prazo de Contrato",
+        "ContractStatuses": "Status de Contrato",
+        "ContractSources": "Fontes de Contrato",
+        "UseTerritoryRegions": "Regiões de Território de Uso",
+        "SeasonalInsurances": "Seguros Sazonais",
+        "ForeignVehiclesPolicyDurations": "Durações de Apólice para Veículos Estrangeiros",
+        "AreaTypes": "Tipos de Área",
+        "DocumentAuthorities": "Autoridades de Documento",
+        "Industries": "Indústrias",
+        "InsuranceClasses": "Classes de Seguro",
+        "InsuranceObjectTypes": "Tipos de Objeto de Seguro",
+        "InsuranceTerms": "Prazos de Seguro",
+        "InsuranceTypes": "Tipos de Seguro",
+        "InsuranceClassGroups": "Grupos de Classe de Seguro",
+        "FormOfInsurances": "Formas de Seguro",
+        "AgriculturalTypes": "Tipos Agrícolas",
+        "BuildingTypes": "Tipos de Edificação",
+        "OpoObjectTypes": "Tipos de Objeto OPO",
+        "OtherObjectTypes": "Outros Tipos de Objeto",
+        "PaymentConditions": "Condições de Pagamento",
+        "Risks": "Riscos",
+        "OwnershipForms": "Formas de Propriedade",
+        "RightToLandTypes": "Tipos de Direito à Terra",
+        "Okeds": "OKEDs",
+        "Reinsurance": "Resseguro",
+        "PipelineStatuses": "Status de Pipeline",
+        "PipelineInsuranceTypes": "Tipos de Seguro de Pipeline",
+        "PipelineDeclinedReasons": "Motivos de Recusa de Pipeline",
+        "PipelineStructures": "Estruturas de Pipeline",
+        "PipelinePayables": "Contas a Pagar de Pipeline",
+        "PipelineProbabilityOfBind": "Probabilidade de Fechamento de Pipeline",
+        "PipelineDeductionTypes": "Tipos de Dedução de Pipeline",
+        "PipelineDeductionLevels": "Níveis de Dedução de Pipeline",
+        "PipelineTaxTypes": "Tipos de Imposto de Pipeline",
+        "PipelinePremiumScheduleTypes": "Tipos de Cronograma de Prêmio",
+        "PipelinePremiumScheduleStatus": "Status de Cronograma de Prêmio",
+        "PipelineRiskCodes": "Códigos de Risco de Pipeline",
+        "PipelineInsurancePartiesTypes": "Tipos de Partes de Seguro",
+        "PipelinePaymentTypes": "Tipos de Pagamento de Pipeline",
+        "PipelineChoicesOfLaw": "Escolhas de Lei de Pipeline",
+        "PipelineChoicesOfJurisdiction": "Escolhas de Jurisdição de Pipeline",
+        "Currencies": "Moedas",
+        "Banks": "Bancos",
+        "BankBranches": "Agências Bancárias",
+        "Countries": "Países",
+        "Regions": "Regiões",
+        "Districts": "Distritos",
+        "Genders": "Gêneros",
+        "Relatives": "Parentes",
+        "MeasureTypes": "Tipos de Medida",
+        "Agencies": "Agências",
+        "ReferralProgram": "Programa de Indicação",
+        "Chats": "Chats",
+        "Clients": "Clientes",
+        "Requests": "Solicitações",
+        "KaskoRequests": "Solicitações Kasko",
+        "Questions": "Perguntas",
+        "SOS": "SOS",
+        "PartnerProgramRequests": "Solicitações de Programa de Parceiros",
+        "Commission": "Comissão",
+        "PromoCodes": "Códigos Promocionais",
+        "Payouts": "Pagamentos",
+        "ChatBot": "Chat Bot",
+        "AIChatPlayground": "Playground de Chat de IA",
+        "AIChatLogs": "Registros de Chat de IA",
+        "AIChatConfigurations": "Configurações de Chat de IA",
+        "AIChatEvaluation": "Avaliação de Chat de IA",
+        "SystemInfo": "Informações do Sistema",
+        "Logs": "Registros",
+        "LiveLogs": "Registros em Tempo Real",
+        "RequestLogs": "Registros de Requisição",
+        "RequestLogsList": "Lista de Registros de Requisição",
+        "Metrics": "Métricas",
+        "Production": "Produção",
+        "BOMS": "Lista de Materiais",
+        "Navbar": {
+            "Profile": "Perfil",
+            "Sessions": "Sessões",
+            "Logout": "Sair"
+        }
+    },
+    "No": "Não",
+    "PerPage": "Por página",
+    "PermissionSets": {
+        "Core": {
+            "UserView": {
+                "Label": "Visualizar Usuários",
+                "_Description": "Somente visualizar informações de usuários"
+            },
+            "UserManage": {
+                "Label": "Gerenciar Usuários",
+                "_Description": "Capacidades totais de gestão de usuários, incluindo bloqueio"
+            },
+            "RoleView": {
+                "Label": "Visualizar Funções",
+                "_Description": "Somente visualizar informações de funções"
+            },
+            "RoleManage": {
+                "Label": "Gerenciar Funções",
+                "_Description": "Gestão total de funções e permissões"
+            },
+            "GroupView": {
+                "Label": "Visualizar Grupos",
+                "_Description": "Somente visualizar informações de grupos"
+            },
+            "GroupManage": {
+                "Label": "Gerenciar Grupos",
+                "_Description": "Capacidades totais de gestão de grupos"
+            },
+            "UploadView": {
+                "Label": "Visualizar Arquivos Enviados",
+                "_Description": "Somente visualizar arquivos enviados"
+            },
+            "UploadManage": {
+                "Label": "Gerenciar Arquivos Enviados",
+                "_Description": "Gestão total de envios de arquivos"
+            }
+        },
+        "Finance": {
+            "PaymentView": {
+                "Label": "Visualizar Pagamentos",
+                "_Description": "Somente visualizar informações de pagamentos"
+            },
+            "PaymentManage": {
+                "Label": "Gerenciar Pagamentos",
+                "_Description": "Capacidades totais de gestão de pagamentos"
+            },
+            "ExpenseView": {
+                "Label": "Visualizar Despesas",
+                "_Description": "Somente visualizar informações de despesas"
+            },
+            "ExpenseManage": {
+                "Label": "Gerenciar Despesas",
+                "_Description": "Capacidades totais de gestão de despesas"
+            },
+            "ExpenseCategoryView": {
+                "Label": "Visualizar Categorias de Despesa",
+                "_Description": "Somente visualizar informações de categorias de despesa"
+            },
+            "ExpenseCategoryManage": {
+                "Label": "Gerenciar Categorias de Despesa",
+                "_Description": "Capacidades totais de gestão de categorias de despesa"
+            },
+            "DebtView": {
+                "Label": "Visualizar Dívidas",
+                "_Description": "Somente visualizar informações de dívidas"
+            },
+            "DebtManage": {
+                "Label": "Gerenciar Dívidas",
+                "_Description": "Capacidades totais de gestão de dívidas"
+            }
+        },
+        "Projects": {
+            "ProjectView": {
+                "Label": "Visualizar Projetos",
+                "_Description": "Somente visualizar informações de projetos"
+            },
+            "ProjectManage": {
+                "Label": "Gerenciar Projetos",
+                "_Description": "Capacidades totais de gestão de projetos"
+            },
+            "ProjectStageView": {
+                "Label": "Visualizar Estágios de Projeto",
+                "_Description": "Somente visualizar informações de estágios de projeto"
+            },
+            "ProjectStageManage": {
+                "Label": "Gerenciar Estágios de Projeto",
+                "_Description": "Capacidades totais de gestão de estágios de projeto"
+            }
+        },
+        "Warehouse": {
+            "ProductView": {
+                "Label": "Visualizar Produtos",
+                "_Description": "Somente visualizar informações de produtos"
+            },
+            "ProductManage": {
+                "Label": "Gerenciar Produtos",
+                "_Description": "Capacidades totais de gestão de produtos"
+            },
+            "PositionView": {
+                "Label": "Visualizar Cargos",
+                "_Description": "Somente visualizar informações de cargos"
+            },
+            "PositionManage": {
+                "Label": "Gerenciar Cargos",
+                "_Description": "Capacidades totais de gestão de cargos"
+            },
+            "OrderView": {
+                "Label": "Visualizar Pedidos",
+                "_Description": "Somente visualizar informações de pedidos"
+            },
+            "OrderManage": {
+                "Label": "Gerenciar Pedidos",
+                "_Description": "Capacidades totais de gestão de pedidos"
+            },
+            "UnitView": {
+                "Label": "Visualizar Unidades",
+                "_Description": "Somente visualizar informações de unidades"
+            },
+            "UnitManage": {
+                "Label": "Gerenciar Unidades",
+                "_Description": "Capacidades totais de gestão de unidades"
+            },
+            "InventoryView": {
+                "Label": "Visualizar Estoque",
+                "_Description": "Somente visualizar informações de estoque"
+            },
+            "InventoryManage": {
+                "Label": "Gerenciar Estoque",
+                "_Description": "Capacidades totais de gestão de estoque"
+            }
+        },
+        "CRM": {
+            "ClientView": {
+                "Label": "Visualizar Clientes",
+                "_Description": "Somente visualizar informações de clientes"
+            },
+            "ClientManage": {
+                "Label": "Gerenciar Clientes",
+                "_Description": "Capacidades totais de gestão de clientes"
+            },
+            "PayoutView": {
+                "Label": "Visualizar Pagamentos",
+                "_Description": "Visualizar informações de pagamentos"
+            },
+            "PayoutManage": {
+                "Label": "Gerenciar Pagamentos",
+                "_Description": "Capacidades totais de gestão de pagamentos"
+            }
+        },
+        "Pipeline": {
+            "PipelineView": {
+                "Label": "Visualizar Pipelines",
+                "_Description": "Somente visualizar informações de pipelines"
+            },
+            "PipelineManage": {
+                "Label": "Gerenciar Pipelines",
+                "_Description": "Capacidades totais de gestão de pipelines"
+            }
+        },
+        "HRM": {
+            "EmployeeView": {
+                "Label": "Visualizar Funcionários",
+                "_Description": "Somente visualizar informações de funcionários"
+            },
+            "EmployeeManage": {
+                "Label": "Gerenciar Funcionários",
+                "_Description": "Capacidades totais de gestão de funcionários"
+            }
+        },
+        "BiChat": {
+            "AccessView": {
+                "Label": "Acessar BI Chat",
+                "_Description": "Usar a interface conversacional BI-Chat"
+            },
+            "ReadAllView": {
+                "Label": "Ler Todas as Sessões",
+                "_Description": "Visualizar sessões de chat de todos os usuários"
+            },
+            "Export": {
+                "Label": "Exportar Dados",
+                "_Description": "Exportar dados de chat"
+            }
+        },
+        "Website": {
+            "WebsiteView": {
+                "Label": "Visualizar Website",
+                "_Description": "Somente visualizar informações do website"
+            },
+            "WebsiteManage": {
+                "Label": "Gerenciar Website",
+                "_Description": "Capacidades totais de gestão do website"
+            }
+        }
+    },
+    "Permissions": {
+        "User": {
+            "Create": "Criar usuários",
+            "Read": "Visualizar usuários",
+            "Update": "Atualizar usuários",
+            "Delete": "Excluir usuários",
+            "UpdateBlockStatus": "Bloquear/desbloquear usuários"
+        },
+        "Role": {
+            "Create": "Criar funções",
+            "Read": "Visualizar funções",
+            "Update": "Atualizar funções",
+            "Delete": "Excluir funções"
+        },
+        "Group": {
+            "Create": "Criar grupos",
+            "Read": "Visualizar grupos",
+            "Update": "Atualizar grupos",
+            "Delete": "Excluir grupos"
+        },
+        "Account": {
+            "Create": "Criar contas",
+            "Read": "Visualizar contas",
+            "Update": "Atualizar contas",
+            "Delete": "Excluir contas"
+        },
+        "Settings": {
+            "Update": "Atualizar configurações",
+            "Read": "Visualizar configurações"
+        },
+        "Upload": {
+            "Create": "Criar uploads",
+            "Read": "Visualizar uploads",
+            "Update": "Atualizar uploads",
+            "Delete": "Excluir uploads"
+        },
+        "Payout": {
+            "Pay": "Pagar",
+            "PayAll": "Pagar tudo",
+            "Reverse": "Estornar pagamento"
+        },
+        "Pipeline": {
+            "Create": "Criar pipelines",
+            "Read": "Visualizar pipelines",
+            "Update": "Atualizar pipelines",
+            "Delete": "Excluir pipelines",
+            "SubmitForUnderwriting": "Enviar para subscrição",
+            "Approve": "Aprovar pipelines",
+            "Decline": "Recusar pipelines",
+            "RequestAdditionalInfo": "Solicitar informações adicionais",
+            "CompleteAssessment": "Concluir avaliação"
+        },
+        "Session": {
+            "Read": "Visualizar sessões",
+            "Delete": "Excluir sessões"
+        }
+    },
+    "Projects": {
+        "Meta": {
+            "List": {
+                "Title": "Projetos"
+            },
+            "Edit": {
+                "Title": "Editar projeto"
+            },
+            "New": {
+                "Title": "Adicionar projeto"
+            }
+        },
+        "List": {
+            "New": "Adicionar Projeto",
+            "_Description": "Descrição",
+            "Name": "Nome"
+        },
+        "Single": {
+            "Edit": "Editar projeto",
+            "Name": "Nome",
+            "_Description": "Descrição",
+            "Delete": "Excluir projeto",
+            "DeleteConfirmation": "Tem certeza de que deseja excluir este projeto?"
+        }
+    },
+    "Remove": "Remover",
+    "Resources": {
+        "bichat": "BI-Chat",
+        "user": "Usuários",
+        "role": "Funções",
+        "group": "Grupos",
+        "upload": "Arquivos Enviados",
+        "payout_request": "Solicitação de Pagamento",
+        "pipeline": "Pipeline",
+        "website": "Website",
+        "session": "Sessões"
+    },
+    "Roles": {
+        "Meta": {
+            "List": {
+                "Title": "Funções"
+            },
+            "Edit": {
+                "Title": "Editar função"
+            },
+            "New": {
+                "Title": "Nova função"
+            }
+        },
+        "List": {
+            "New": "Nova função",
+            "Name": "Nome"
+        },
+        "Single": {
+            "Edit": "Editar função",
+            "Name": {
+                "Label": "Nome da função",
+                "Placeholder": "Digite o nome da função"
+            },
+            "_Description": {
+                "Label": "Descrição",
+                "Placeholder": "Digite a descrição para a função"
+            },
+            "Delete": "Excluir função",
+            "DeleteConfirmation": "Tem certeza de que deseja excluir esta função?"
+        }
+    },
+    "Save": "Salvar",
+    "Scaffold": {
+        "Table": {
+            "NoDataTitle": "Nenhum dado disponível",
+            "NoDataDescription": "Não há dados disponíveis para esta tabela.",
+            "NothingFound": "Nada encontrado",
+            "TableSettings": "Configurações da tabela",
+            "ResetSettings": "Redefinir configurações",
+            "Columns": "Colunas",
+            "Grid": "Grade",
+            "GridVertical": "Linhas verticais",
+            "GridHorizontal": "Linhas horizontais"
+        },
+        "Filters": {
+            "Title": "Filtros",
+            "SelectAll": "Selecionar Tudo"
+        }
+    },
+    "Search": "Buscar",
+    "SignOut": "Sair",
+    "Submit": "Enviar",
+    "UploadLabel": "Enviar Arquivo",
+    "UploadPlaceholder": "Escolha um arquivo para enviar",
+    "DownloadTemplate": "Baixar Modelo",
+    "Example": {
+        "Below": "Veja o exemplo abaixo"
+    },
+    "Spotlight": {
+        "Placeholder": "Buscar...",
+        "NothingFound": "Nada encontrado",
+        "Actions": {
+            "AddUser": "Adicionar usuário",
+            "AddAccount": "Adicionar conta"
+        }
+    },
+    "Unknown": "Desconhecido",
+    "System": "Sistema",
+    "UpdatedAt": "Atualizado em",
+    "Users": {
+        "Meta": {
+            "List": {
+                "Title": "Usuários"
+            },
+            "Edit": {
+                "Title": "Editar usuário"
+            },
+            "New": {
+                "Title": "Novo usuário"
+            },
+            "Permissions": {
+                "Title": "Permissões de Usuário"
+            }
+        },
+        "List": {
+            "New": "Novo Usuário",
+            "FullName": "Nome completo",
+            "Roles": "Funções",
+            "Email": "E-mail",
+            "AllGroups": "Todos os Grupos",
+            "AllRoles": "Todas as Funções",
+            "Filters": "Filtros",
+            "ExpandFilters": "Expandir filtros",
+            "CollapseFilters": "Recolher filtros"
+        },
+        "Cards": {
+            "PersonalInfo": "Informações pessoais",
+            "UserInfo": "Informações de usuário"
+        },
+        "Tabs": {
+            "UserInfo": "Informações",
+            "Permissions": "Permissões",
+            "Sessions": "Sessões"
+        },
+        "Single": {
+            "EditUser": "Editar usuário",
+            "FirstName": "Nome",
+            "LastName": "Sobrenome",
+            "MiddleName": "Nome do meio",
+            "Email": "E-mail",
+            "Phone": "Telefone",
+            "Password": "Senha",
+            "Language": "Idioma",
+            "UILanguage": "pt-BR",
+            "SelectLanguage": "Selecionar idioma",
+            "ChooseAvatar": "Escolher avatar",
+            "RoleIDs": "Função",
+            "GroupIDs": "Grupo",
+            "SelectRole": "Selecionar função",
+            "SelectGroup": "Selecionar grupo",
+            "EnterPassword": "Digite a senha",
+            "Delete": "Excluir usuário",
+            "DeleteConfirmation": "Tem certeza de que deseja excluir este usuário?",
+            "Permissions": "Permissões de Usuário"
+        },
+        "Blocked": "Bloqueado",
+        "Block": {
+            "Title": "Bloquear Usuário",
+            "Button": "Bloquear Usuário",
+            "Confirm": "Bloquear Usuário",
+            "Reason": "Motivo do Bloqueio",
+            "ReasonPlaceholder": "Digite o motivo do bloqueio (mínimo 3 caracteres)",
+            "ConfirmationText": "Tem certeza de que deseja bloquear este usuário?",
+            "BlockedBy": "Bloqueado por",
+            "BlockedAt": "Bloqueado em",
+            "Errors": {
+                "ReasonRequired": "O motivo do bloqueio é obrigatório",
+                "ReasonTooShort": "O motivo do bloqueio deve ter pelo menos 3 caracteres",
+                "ReasonTooLong": "O motivo do bloqueio não deve exceder 1024 caracteres"
+            }
+        },
+        "Unblock": {
+            "Title": "Desbloquear Usuário",
+            "Button": "Desbloquear Usuário",
+            "Confirm": "Desbloquear",
+            "ConfirmationText": "Tem certeza de que deseja desbloquear este usuário?"
+        },
+        "Errors": {
+            "PhoneUnique": "O número de telefone já está em uso",
+            "EmailUnique": "O e-mail já está em uso"
+        },
+        "Delete": {
+            "NotAllowed": "Sem permissão para excluir: Você é o único usuário nesta conta"
+        },
+        "Sessions": {
+            "Title": "Sessões para:",
+            "Device": "Dispositivo",
+            "Browser": "Navegador",
+            "OS": "Sistema Operacional",
+            "IP": "Endereço IP",
+            "CreatedAt": "Criado em",
+            "Actions": "Ações",
+            "Revoke": "Revogar",
+            "RevokeConfirm": "Tem certeza de que deseja revogar esta sessão?",
+            "NoSessions": "Nenhuma sessão ativa",
+            "RevokeSuccess": "Sessão revogada com sucesso",
+            "RevokeFailed": "Falha ao revogar sessão"
+        }
+    },
+    "ValidationErrors": {
+        "required": "Este campo é obrigatório",
+        "emptySelect": "Selecione um valor",
+        "email": "Formato de e-mail inválido",
+        "min": "{{.Field}} deve ser no mínimo o valor especificado",
+        "max": "{{.Field}} não deve exceder o valor máximo",
+        "gt": "{{.Field}} deve ser maior que 0",
+        "gte": "{{.Field}} deve ser maior ou igual ao valor especificado",
+        "lte": "{{.Field}} deve ser menor ou igual ao valor especificado",
+        "len": "{{.Field}} deve ter exatamente o comprimento exigido",
+        "uuid": "{{.Field}} deve ser um UUID válido",
+        "custom": "{{.Field}}: {{.Error}}",
+        "alphanum": "{{.Field}} deve conter apenas caracteres alfanuméricos (letras e números).",
+        "oneof": "{{.Field}} deve ser um dos valores permitidos",
+        "datetime": "{{.Field}} deve ser uma data válida",
+        "gtfield": "{{.Field}} deve ser maior que {{.Param}}",
+        "invalidTIN": "Formato de TIN inválido: {{.Details}}",
+        "invalidPIN": "Formato de PIN inválido: {{.Details}}"
+    },
+    "Yes": "Sim",
+    "TwoFactor": {
+        "Setup": {
+            "Meta": {
+                "Title": "Configurar autenticação de dois fatores",
+                "TOTP": "App de Autenticação",
+                "OTP": "Código de Verificação",
+                "Complete": "Configuração Concluída"
+            },
+            "SetupTwoFactor": "Configurar Autenticação de Dois Fatores",
+            "ChooseMethod": "Escolha como você deseja proteger sua conta",
+            "Continue": "Continuar",
+            "TOTPMethod": "App de Autenticação",
+            "TOTPDescription": "Use um aplicativo como Google Authenticator, Microsoft Authenticator ou Authy",
+            "SMSMethod": "Mensagem de Texto SMS",
+            "SMSDescription": "Receba códigos de verificação via SMS no seu celular",
+            "EmailMethod": "E-mail",
+            "EmailDescription": "Receba códigos de verificação via e-mail",
+            "SetupAuthenticator": "Configure seu App de Autenticação",
+            "ScanQRCode": "Escaneie este código QR com seu app de autenticação",
+            "ScanWithAuthenticator": "Use um app de autenticação para escanear este código QR ou insira a chave manualmente",
+            "EnterCode": "Digite o código de 6 dígitos gerado no app",
+            "EnterVerificationCode": "Digite o código de verificação",
+            "DigitCode": "Código de 6 dígitos",
+            "Verify": "Verificar e Continuar",
+            "VerifyPhone": "Verifique seu Número de Telefone",
+            "VerifyEmail": "Verifique seu E-mail",
+            "CodeSentToPhone": "Enviamos um código de verificação para o seu celular",
+            "CodeSentToEmail": "Enviamos um código de verificação para o seu e-mail",
+            "CodeSent": "Código enviado com sucesso",
+            "SMSSent": "Código de verificação enviado para o seu celular",
+            "EmailSent": "Código de verificação enviado para o seu e-mail",
+            "ResendCode": "Reenviar Código",
+            "TOTPHelp": "Se você perder o acesso ao seu app de autenticação, não poderá entrar. Salve seus códigos de recuperação em um lugar seguro.",
+            "SMSHelp": "O código será válido por 10 minutos. Se não recebê-lo, verifique sua pasta de spam.",
+            "EmailHelp": "Verifique seu e-mail para encontrar o código de verificação. Ele será válido por 10 minutos.",
+            "Success": "Autenticação de Dois Fatores Ativada",
+            "SetupComplete": "Sua conta agora está protegida com autenticação de dois fatores",
+            "SaveRecoveryCodes": "Salve seus códigos de recuperação",
+            "RecoveryCodesWarning": "Estes códigos de recuperação são a única maneira de acessar sua conta se você perder o acesso ao seu app ou celular. Guarde-os em um local seguro.",
+            "BackupCodesTip": "Cada código só pode ser usado uma vez. Salve-os em um lugar seguro, como um gerenciador de senhas.",
+            "BackupCodesTipOTP": "Cada código só pode ser usado uma vez. Se precisar de novos códigos, você pode gerá-los nas configurações da conta.",
+            "PrintCodes": "Imprimir Códigos",
+            "CopyCodes": "Copiar Códigos",
+            "RecoveryCodesInfo": "Você pode usar um código de recuperação se perder o acesso ao seu dispositivo. Cada código só pode ser usado uma vez.",
+            "InvalidCode": "O código digitado é inválido ou expirou. Por favor, tente novamente.",
+            "InvalidMethod": "Método de verificação inválido selecionado. Por favor, tente novamente.",
+            "ResendFailed": "Falha ao reenviar o código de verificação. Por favor, tente novamente.",
+            "Error": "Falha ao configurar a autenticação de dois fatores. Por favor, tente novamente."
+        },
+        "Verify": {
+            "Meta": {
+                "Title": "Verifique sua Identidade",
+                "Recovery": "Usar Código de Recuperação"
+            },
+            "EnterCode": "Digite o Código de Verificação",
+            "EnterAuthenticatorCode": "Digite o código do seu aplicativo de autenticação",
+            "VerifyPhone": "Verifique seu Número de Telefone",
+            "VerifyEmail": "Verifique seu E-mail",
+            "CodeSentToPhone": "Enviamos um código de verificação para o seu celular",
+            "CodeSentToEmail": "Enviamos um código de verificação para o seu e-mail",
+            "EnterVerificationCode": "Digite o código de verificação",
+            "DigitCode": "Código de 6 dígitos",
+            "Verify": "Verificar",
+            "ResendCode": "Reenviar Código",
+            "CodeSent": "Código enviado com sucesso",
+            "SMSCodeSent": "Código de verificação enviado para o seu celular",
+            "EmailCodeSent": "Código de verificação enviado para o seu e-mail",
+            "ResendError": "Falha ao reenviar o código. Por favor, tente novamente.",
+            "InvalidCode": "O código digitado é inválido ou expirou. Por favor, tente novamente.",
+            "InvalidRecoveryCode": "O código de recuperação digitado é inválido. Por favor, tente novamente.",
+            "Error": "Falha ao verificar sua identidade. Por favor, tente novamente.",
+            "Success": "Identidade verificada com sucesso",
+            "LostAccess": "Não tem acesso ao seu app ou celular?",
+            "UseRecoveryCode": "Use um código de recuperação",
+            "RecoveryCodeLabel": "Digite o Código de Recuperação",
+            "RecoveryCodeFormat": "Formato: XXXX-XXXX-XXXX (12 caracteres)",
+            "EnterRecoveryCode": "Digite um dos seus códigos de recuperação salvos",
+            "VerifyRecoveryCode": "Verificar Código de Recuperação",
+            "BackToVerification": "Tem acesso ao seu app ou celular?",
+            "TOTPHelp": "Se você perder o acesso ao seu app de autenticação, use um código de recuperação.",
+            "SMSHelp": "O código será válido por 10 minutos. Se não recebê-lo, verifique sua pasta de spam ou use um código de recuperação.",
+            "EmailHelp": "Verifique seu e-mail para encontrar o código de verificação. Ele será válido por 10 minutos ou use um código de recuperação.",
+            "RecoveryCodeHelp": "Cada código de recuperação só pode ser usado uma vez. Se acabar, você pode gerar novos nas configurações da conta."
+        }
+    },
+    "multilang": {
+        "empty": "—",
+        "no_translations": "Nenhuma tradução disponível",
+        "add_language": "+ Adicionar Idioma",
+        "remove_language": "Remover este idioma",
+        "locale_placeholder": "pt-BR",
+        "text_placeholder": "Digite o texto neste idioma"
+    },
+    "Sessions": {
+        "Meta": {
+            "List": {
+                "Title": "Sessões Ativas"
+            }
+        },
+        "List": {
+            "Title": "Sessões Ativas",
+            "Search": "Buscar por nome de usuário ou e-mail...",
+            "User": "Usuário",
+            "Device": "Dispositivo",
+            "IP": "Endereço IP",
+            "CreatedAt": "Criado em",
+            "Actions": "Ações",
+            "Revoke": "Revogar",
+            "ConfirmRevoke": "Tem certeza de que deseja revogar esta sessão?",
+            "EmptyState": "Nenhuma sessão ativa encontrada",
+            "CurrentSession": "Atual"
+        },
+        "Revoked": "Sessão revogada com sucesso"
+    }
+}

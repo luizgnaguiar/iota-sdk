@@ -6,10 +6,13 @@ import (
 	"sync"
 
 	"github.com/go-playground/locales/en"
+	"github.com/go-playground/locales/pt_BR"
 	"github.com/go-playground/locales/ru"
+	"github.com/go-playground/locales/uz"
 	"github.com/go-playground/locales/zh_Hans_CN"
 	"github.com/go-playground/validator/v10"
 	en_translations "github.com/go-playground/validator/v10/translations/en"
+	pt_translations "github.com/go-playground/validator/v10/translations/pt_BR"
 	ru_translations "github.com/go-playground/validator/v10/translations/ru"
 	zh_translations "github.com/go-playground/validator/v10/translations/zh"
 	"github.com/iota-uz/iota-sdk/pkg/constants"
@@ -28,9 +31,10 @@ const (
 
 var (
 	registerTranslations = map[string]func(v *validator.Validate, trans ut.Translator) error{
-		"en": en_translations.RegisterDefaultTranslations,
-		"ru": ru_translations.RegisterDefaultTranslations,
-		"zh": zh_translations.RegisterDefaultTranslations,
+		"en":    en_translations.RegisterDefaultTranslations,
+		"ru":    ru_translations.RegisterDefaultTranslations,
+		"zh":    zh_translations.RegisterDefaultTranslations,
+		"pt-BR": pt_translations.RegisterDefaultTranslations,
 	}
 	translationLock = sync.Mutex{}
 	ErrNoLocalizer  = errors.New("localizer not found")
@@ -70,7 +74,9 @@ func loadUniTranslator() *ut.UniversalTranslator {
 	enLocale := en.New()
 	ruLocale := ru.New()
 	zhLocale := zh_Hans_CN.New()
-	return ut.New(enLocale, enLocale, ruLocale, zhLocale)
+	ptLocale := pt_BR.New()
+	uzLocale := uz.New()
+	return ut.New(enLocale, enLocale, ruLocale, zhLocale, ptLocale, uzLocale)
 }
 
 func UseUniLocalizer(ctx context.Context) (ut.Translator, error) {
